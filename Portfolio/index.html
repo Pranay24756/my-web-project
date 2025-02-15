@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverside Restaurent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Riverside Restaurent</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Experience the Best Food in Town!</h2>
+        <p>Enjoy our delicious meals made with fresh ingredients.</p>
+        <img src="C:\Projects\Portfolio\images\Hotel.jpg" alt="Restaurent">
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="C:\Projects\Portfolio\images\Pizza.jpg" alt="Pizza">
+                <p>Pizza - ₹150</p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Projects\Portfolio\images\Burger.jpg" alt="Burger">
+                <p>Burger - ₹99</p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Projects\Portfolio\images\Drink.jpg" alt="Drink">
+                <p> Drink- ₹49</p>
+                </div>
+        <div class="menu-item">
+            <img src="C:\Projects\Portfolio\images\Ice-cream.jpg" alt="Ice-cream">
+            <p>Ice-cream - ₹79</p>
+        </div>
+        <div class="menu-item">
+            <img src="C:\Projects\Portfolio\images\Pasta.jpg" alt="Pasta">
+            <p>Pasta - ₹149</p>
+        </div>
+        <div class="menu-item">
+            <img src="C:\Projects\Portfolio\images\Salaad.jpg" alt="Salaad">
+            <p>Salaad - ₹99</p>
+        </div>      
+    </section>
+
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="Number" id="Number" placeholder="Number" required>
+            <input type="text" id="Adress" placeholder="Adress" required>
+            <select id="dish">
+                <option value="Pizza">Pizza - ₹150</option>
+                <option value="Pasta">Pasta - ₹149</option>
+                <option value="Burger">Burger -₹99</option>
+                <option value="Salad">Salad - ₹99</option>
+                <option value="Drink">Drink - ₹49</option>
+                <option value="Ice-cream">Ice-crean - ₹79</option>
+
+            </select>
+            <button type="submit">Order Now</button>
+        </form>
+        <h3 id="orderMessage"></h3>
+    </section>
+
+    <footer>
+        <p>© 2025 RiverSide Restaurent  | All Rights Reserved </p>
+        <p>Contact:1234567890</p>
+        <p>@Feedback</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

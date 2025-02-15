@@ -1,0 +1,69 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #100f0f;
+    color:white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.seat-layout {
+    margin: 20px 0;
+}
+
+.screen {
+    background: #444;
+    height: 50px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(8, 30px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background: green;
+}
+
+.seat.occupied {
+    background: rgb(12, 225, 51);
+    cursor: not-allowed;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkgreen;
+}
